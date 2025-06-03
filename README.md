@@ -28,22 +28,31 @@ This is a simple Employee Management System built using Java Spring Boot, Spring
 
 ## Project Structure
 
-``` src/
-└── main/
-    ├── java/
-    │   └── com/
-    │       └── project/
-    │           └── springboot/
-    │               ├── controller/          # REST controllers
-    │               ├── exception/           # Custom exception classes
-    │               ├── model/               # Employee entity
-    │               ├── repository/          # Spring Data JPA repositories
-    │               └── SpringbootApplication.java
-    └── resources/
-        ├── application.properties           # Spring Boot configuration
-        ├── static/                          # Static assets (optional)
-        ├── templates/                       # Thymeleaf templates (optional)
-        └── ...
+```
+Employee_Management_System/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── project/
+│       │           └── springboot/
+│       │               ├── controller/           # REST controllers
+│       │               ├── exception/            # Custom exception classes
+│       │               ├── model/                # Employee entity
+│       │               ├── repository/           # Spring Data JPA repositories
+│       │               └── SpringbootApplication.java
+│       └── resources/
+│           ├── application.properties            # Spring Boot configuration
+│           ├── static/                           # Static assets (optional)
+│           ├── templates/                        # Thymeleaf templates (optional)
+│           └── ...
+├── screenshots/
+│   ├── postman-get.png                           # Screenshot of Postman GET request
+│   ├── db-view.png                               # Screenshot of MySQL Workbench
+│   └── api-response.png                          # Screenshot of API response
+├── pom.xml                                       # Maven configuration file
+└── README.md                                     # Project documentation
+
 ``` 
 # 🔧 Setup Instructions
 
@@ -88,5 +97,17 @@ mvn spring-boot:run
 | DELETE | `/api/v1/employees/{id}`    | Delete employee      |
 
 > 🛠️ Use Postman or any REST client to test the endpoints.
-![Postman POST Request](Screenshot%202025-06-03%20101138.png)
-![MySQL Table Output](Screenshot%202025-06-03%20101215.png)
+
+---
+
+## 📸 Screenshots
+
+### 🔹 API Test (POST new Employees)
+![POST API](https://github.com/seenivasaperumal46/Employee_Management_System/blob/ef627320120df2a12f18cbb77c636a77cdaff40b/postman%20output.png.png)
+
+### 🔹 Employee Table in MySQL
+![Database View](https://github.com/seenivasaperumal46/Employee_Management_System/blob/ef627320120df2a12f18cbb77c636a77cdaff40b/Mysql%20output.png.png)
+
+### 🔹 API Response in Console
+![Console Output](https://github.com/seenivasaperumal46/Employee_Management_System/blob/ef627320120df2a12f18cbb77c636a77cdaff40b/console%20output.png.png)
+
