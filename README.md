@@ -1,9 +1,9 @@
-## 🧑‍💼 Employee Management System
+# 🧑‍💼 Employee Management System
 
 This is a simple Employee Management System built using Java Spring Boot, Spring Data JPA, MySQL, and Maven. It demonstrates basic CRUD operations—Create, Read, Update, and Delete—through RESTful APIs. The project serves as a foundational backend application, making it ideal for beginners who want to learn how to build and structure Java-based Spring Boot applications with database connectivity.
 .
 
-## 🚀 Features
+# 🚀 Features
 
 - Add a new employee
 - View all employees
@@ -11,7 +11,7 @@ This is a simple Employee Management System built using Java Spring Boot, Spring
 - Update employee details
 - Delete employee
 
-## 🧱 Tech Stack
+# 🧱 Tech Stack
 
 - Java 17
 - Spring Boot 3.x
@@ -24,7 +24,7 @@ This is a simple Employee Management System built using Java Spring Boot, Spring
 
 ---
 
-## ⚙️ Project Structure
+# ⚙️ Project Structure
 
 ## Project Structure
 
@@ -45,7 +45,7 @@ This is a simple Employee Management System built using Java Spring Boot, Spring
         ├── templates/                       # Thymeleaf templates (optional)
         └── ...
 ``` 
-## 🔧 Setup Instructions
+# 🔧 Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -77,7 +77,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 Use Maven to build and run the application:
 mvn spring-boot:run
 
-### API Endpoints
+### 🔍 API Endpoints
 
 | Method | Endpoint                    | Description          |
 |--------|-----------------------------|----------------------|
