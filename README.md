@@ -88,3 +88,5 @@ mvn spring-boot:run
 | DELETE | `/api/v1/employees/{id}`    | Delete employee      |
 
 > 🛠️ Use Postman or any REST client to test the endpoints.
+![Postman POST Request](Screenshot%202025-06-03%20101138.png)
+![MySQL Table Output](Screenshot%202025-06-03%20101215.png)
