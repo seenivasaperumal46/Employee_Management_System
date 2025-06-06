@@ -3,7 +3,7 @@
 This is a simple Employee Management System built using Java Spring Boot, Spring Data JPA, MySQL, and Maven. It demonstrates basic CRUD operations—Create, Read, Update, and Delete—through RESTful APIs. The project serves as a foundational backend application, making it ideal for beginners who want to learn how to build and structure Java-based Spring Boot applications with database connectivity.
 .
 
-# 🚀 Features
+# 🚀 Features.
 
 - Add a new employee
 - View all employees
